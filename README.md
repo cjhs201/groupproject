@@ -11,9 +11,7 @@ The group members are:
 5. Dina Omar
 6.
 
-
 This is a submission for Sprint 1. There are three types of document that you will find the following places.
-
 
 ## PROCESS DOCUMENTS
 
@@ -33,7 +31,7 @@ Within process documents we have also included the meeting notes, agenda and min
 
 Our technical documents are primarily managed on the github system. The link to the project is below:
 
-github link: [https://github.com/user12863434/exeter-orienteering]
+github link: https://github.com/cjhs201/groupproject-T
 
 We have also include the versioned source code for archiving.
 
