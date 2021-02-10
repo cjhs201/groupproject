@@ -1,0 +1,9 @@
+Should Have:
+ - Student Engagement
+ - Workouts for users to follow along with
+ - Some incorporation of societies/groups of likeminded people with similar interests
+	to connect users together
+
+Could Have:
+ - Add more hobbies (i.e. cooking, drawing etc.) on top of the workout aspect
+ - A level system with virtual rewards that are reset each month. Driving competition between users
