@@ -1,0 +1,15 @@
+<center>
+    <h1>Welcome!</h1>
+    <body text="#ffffff" link="#00FFFF" vlink="#00FFFF" alink="#00FFFF"></body>
+    <body style="background-color:#39603D;"></body>
+    <hr/>
+    {% if request.session.email %}
+    {{request.session.email}} &nbsp;&nbsp; <a href="{% url 'Logout' %}">Logout</a>
+    {% else %}
+    <b>
+        <a href="{% url 'Reg' %}">Register</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+        <a href="{% url 'Loginpage' %}">Login</a>
+    </b>
+    {% endif %}
+    </center>
+    
