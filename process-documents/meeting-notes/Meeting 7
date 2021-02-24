@@ -1,0 +1,15 @@
+Group T Meeting 7 22/02/2021
+
+Attendance:
+Dina 1
+Mikhail 1
+Cameron 1
+Yass 1
+George 1
+Jonathan 0
+
+ - We met our goals for our last meeting (login system made, database incorporation)
+ - Assessed what we aimed to get done for our next submission. 
+   A key part of this was deploying our app so that it could be accessed online
+ - We decided on using heroku to deploy our app as it works well with django and can be linked with github 
+   (so once set up it’s very easy to deploy updated implementations of our app)
