@@ -3,6 +3,7 @@ from gamma.models import UserDetails
 from django.contrib import messages
 from django.contrib.auth.models import User
 
+
 def Indexpage(request):
     return render(request, 'index.html')
 
@@ -36,7 +37,8 @@ def logout(request):
         return render(request,'index.html')
     return render(request,'index.html')
 
-def get_user_profile(request, username):
-    user = User.objects.get(username=username)
-    return render(request, '<app_name>/user_profile.html', {"user":user})
+def get_user_profile(request):
+    user = "test"
+    return render(request, 'user_profile.html', {"user":user})
+    
     

@@ -23,5 +23,5 @@ urlpatterns = [
     path('Registration',views.Userreg,name="Reg"),
     path('Login',views.loginpage,name="Loginpage"),
     path('Logout',views.logout,name="Logout"),
-    path('profile/(?P<username>[a-zA-Z0-9]+)$', views.get_user_profile, name="View Profile"),
+    path('ViewProfile', views.get_user_profile, name="View Profile"),
 ]

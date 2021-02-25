@@ -27,7 +27,7 @@ SECRET_KEY = 't%@6c4b37=2nl4#5!feus2zx2t^=9h11nxdqo!_%8^36x33iu2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True #Want to set this to False eventuallt for security measures. But True is useful for testing
 
-ALLOWED_HOSTS = ['grouptapptest.herokuapp.com']
+ALLOWED_HOSTS = ['grouptapptest.herokuapp.com','127.0.0.1']
 
 
 # Application definition
