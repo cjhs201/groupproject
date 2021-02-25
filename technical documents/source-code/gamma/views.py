@@ -34,3 +34,8 @@ def logout(request):
     except:
         return render(request,'index.html')
     return render(request,'index.html')
+
+def get_user_profile(request, username):
+    user = User.objects.get(username=username)
+    return render(request, '<app_name>/user_profile.html', {"user":user})
+    

@@ -4,7 +4,7 @@
     <body style="background-color:#39603D;"></body>
     <hr/>
     {% if request.session.email %}
-    {{request.session.email}} &nbsp;&nbsp; <a href="{% url 'Logout' %}">Logout</a>
+    {{request.session.email}} &nbsp;&nbsp; <a href="{% url 'View Profile' %}">View Profile</a> <a href="{% url 'Logout' %}">Logout</a>
     {% else %}
     <b>
         <a href="{% url 'Reg' %}">Register</a> &nbsp;&nbsp; | &nbsp;&nbsp;
