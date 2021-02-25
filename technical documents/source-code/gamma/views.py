@@ -38,7 +38,6 @@ def logout(request):
     return render(request,'index.html')
 
 def get_user_profile(request):
-    user = "test"
-    return render(request, 'user_profile.html', {"user":user})
+    return render(request, 'user_profile.html',)
     
     

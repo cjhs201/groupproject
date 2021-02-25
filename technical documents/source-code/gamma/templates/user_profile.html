@@ -1,6 +1,9 @@
 <body text="#ffffff" link="#00FFFF" vlink="#00FFFF" alink="#00FFFF"></body>
 <body style="background-color:#39603D;"></body>
 <h1>Your Profile</h1>
-{{ user.username }} 
-{{ user.email }}
-{{ user.study_year }}
+<body> Welcome {{ user.username}} </body>
+<br>
+<body>    You're email is {{request.session.email}} </body>
+<br>
+<body>    You're year of study is {{user.study_year}} </body>
+    
