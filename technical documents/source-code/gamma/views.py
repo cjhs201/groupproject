@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from gamma.models import UserDetails
 from django.contrib import messages
+from django.contrib.auth.models import User
 
 def Indexpage(request):
     return render(request, 'index.html')
